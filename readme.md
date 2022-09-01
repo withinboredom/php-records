@@ -23,6 +23,12 @@ echo "$person is friends with $friend";
 // output: John Doe is friends with Jane Doe
 ```
 
+## Reason for existing
+
+Immutable objects are a great way to prevent some classes of bugs and with PHP 8.1 we can finally make them a reality.
+This library provides a very simple (no bells and whistles) way to copy an object while changing one or two parameters
+using newer php syntax. The only thing missing is IDE support... :)
+
 ## Installation
 
 ```
@@ -37,9 +43,9 @@ Add in the following to run the tests:
 
 ```json
 {
-    "require-dev": {
-      "pestphp/pest": "^1.22"
-    }
+  "require-dev": {
+    "pestphp/pest": "^1.22"
+  }
 }
 ```
 
