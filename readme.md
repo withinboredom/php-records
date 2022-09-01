@@ -5,7 +5,7 @@ This aims to be a bare-bones library for creating immutable records in PHP.
 Example:
 
 ```php
-use Withinboredom\Record\Record;
+use Withinboredom\Record;
 
 class Person extends Record {
     public function __construct(public readonly string $firstName, public readonly string $lastName) {

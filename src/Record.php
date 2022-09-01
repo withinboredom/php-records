@@ -1,6 +1,6 @@
 <?php
 
-namespace Withinboredom\Record;
+namespace Withinboredom;
 
 abstract class Record {
     public function with(...$values): static {

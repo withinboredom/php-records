@@ -1,6 +1,6 @@
 <?php
 
-use Withinboredom\Record\Record;
+use Withinboredom\Record;
 
 it('can create a basic replica with no changes', function () {
    $a = new class(12) extends Record {
